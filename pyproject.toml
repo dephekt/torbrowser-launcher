@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "torbrowser-launcher"
+version = "0.3.5"
+description = "A program to help you securely download and run Tor Browser"
+authors = ["Micah Lee <micah@micahflee.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+distro = "^1.5.0"
+gpg = "^1.10.0"
+packaging = "^21.0"
+requests = "^2.25.1"
+PyQt5 = "^5.15.4"
+PySocks = "^1.7.1"
+
+[tool.poetry.dev-dependencies]
+black = "^21.6b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
